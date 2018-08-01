@@ -38,6 +38,10 @@ header {
 	padding: 0px;
 	}
 
+	body {
+	display: inline-block;
+	}
+
 section .right {
 	float: right;
 }
@@ -47,11 +51,16 @@ section .right {
 	float: none;
 }
 
+#headshot {
+	display: inline;
+}
+
 .left {
 	width: 50%;
 }
 
 .experience {
 	border: none;
+	text-align: center;
 	}
 }
