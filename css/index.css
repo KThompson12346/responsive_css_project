@@ -12,6 +12,7 @@ header, section {
 	width: 60%;
 }
 
+
 #headshot {
 	display: block;
 	text-align: center;
@@ -31,12 +32,31 @@ header, .experience {
 	padding: 10px;
 }
 
-@media screen and (max-width: 825px) {
-	header {
-		border: none;
+@media screen and (max-width: 825px) and () {
+header {
+	border: none;
+	padding: 0px;
 	}
 
-	.right {
+section .right {
+	float: right;
+}
 
+section .left {
+	float: left;
+}
+
+.right {
+	width: 50%;
+	float: none;
+}
+
+.left {
+	float: none;
+	width: 50%;
+}
+
+.experience {
+	border: none;
 	}
 }
